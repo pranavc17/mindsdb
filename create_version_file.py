@@ -5,7 +5,7 @@ about = {}
 with open("mindsdb/__about__.py") as fp:
     exec(fp.read(), about)
 version = about['__version__']
-
+print("Here are some emojis: 😄🦄🌈")
 
 if sys.argv[1] == 'beta':
     filename = 'beta_version.txt'
